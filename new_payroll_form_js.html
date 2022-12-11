@@ -22,7 +22,7 @@
     </header>
 
     <div id="formId" class="form-content">
-        <form class="form" action="#" onsubmit="save()" onreset="resetForm()">
+        <form class="form" action="home.html" onsubmit="save()" onreset="resetForm()">
             <div class="form-head">Employee Payroll Form</div>
             <div class="row-content">
                 <label for="name" class="label text">Name</label>
@@ -36,22 +36,22 @@
         <div class="profile-radio-content">
             <label>
                 <input type="radio" id="profile1" name="profile" class="pointer"
-                       value="icon.png" required>
+                       value="profile1.png" required>
                 <img src="images/profile1.png" class="profile pointer" id="image1">
             </label>
             <label>
                 <input type="radio" id="profile2" name="profile"
-                       value="icon.png" required>
+                       value="profile2.png" required>
                 <img src="images/profile2.png" class="profile" id="image2">
             </label>
             <label>
                 <input type="radio" id="profile3" name="profile"
-                       value="icon.png" required>
+                       value="profile3.png" required>
                 <img src="images/profile3.png" class="profile" id="image3">
             </label>
             <label>
                 <input type="radio" id="profile4" name="profile"
-                       value="icon.png" required>
+                       value="profile4.png" required>
                 <img src="images/profile4.png" class="profile" id="image4">
             </label>
         </div>
@@ -84,7 +84,7 @@
           <label for="salary">Choose your salary</label>
           <input type="range" class="input" name="salary" id="salary" min="300000"
                         max="500000" step="100" value="400000">
-          <output class="salary-output-text" for="salary">400000</output>
+          <output id="salary-lbl" class="salary-output-text" for="salary">400000</output>
       </div>
       <div class="row-content">
           <label for="startDate" class="label text">Start Date</label>
